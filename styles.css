@@ -2,6 +2,28 @@ body{
     margin:0px;
     font-family: 'Roboto condenced', sans-serif; 
 }
+/*p{
+    font-size:16px;
+    color: #0D0D0D;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+h2{
+    font-size: 48px;
+    color: #0D0D0D;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+h3{
+    font-size: 24px;
+    color: #0D0D0D;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+h1{
+    font-size: 64px;
+    color: #0D0D0D;
+    font-family: 'Roboto Condensed', sans-serif;
+}*/
 .navbar-container{
     background-color: #0D0D0D;
     height: 80px;
@@ -149,6 +171,7 @@ body{
     flex-direction: column;
     gap:20px;
     font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
 }
 .love-text-container h2{
     font-size: 48px;
@@ -164,23 +187,26 @@ body{
 
 .love-icon-container{
     display:flex;
+    flex-wrap: wrap;
     gap:20px;
     justify-content: center;
     padding: 70px;
+    
 
 }
 .love-image-2{
    display: flex;
    flex-direction: column;
    justify-content: start;
+   max-width: auto;
 }
 .love-image-1{
-    width:293px;
-    height: 394px;
+    max-width:293px;
+    max-height: 394px;
 }
 .love-image-3{
-    width: 293px;
-    height: 394px;
+    max-width: 293px;
+    max-height: 394px;
 }
 
 .secondary-button{
@@ -188,8 +214,9 @@ body{
     color: #0D0D0D;
     border: none;
     width:200px;
+
     padding:20px 10px;
-    font-size: 16px;
+    font-size: 1em;
     font-family: 'Roboto Condensed', sans-serif;
     border-radius: 12px;
     cursor: pointer;
@@ -201,3 +228,27 @@ body{
     color: #FFD2A4;
     transition: 0.3s;
 }
+.watch-container{
+    background-color:#F5F2F0;
+    display: inline-block;
+    margin-top: 80px;
+    width:100vw;
+}
+.watch-text-container {
+    text-align: center;
+}
+.watch-image-container{
+    display:flex;
+    justify-content: space-around;
+    gap:30px;
+}
+.watch-image-1{
+    background-image: url("../images\fashion-man-love-people-5875438.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.watch-image-2{
+    background-image: url("");
+    background-repeat: no-repeat;
+}
+
