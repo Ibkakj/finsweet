@@ -5,9 +5,8 @@ body{
 .navbar-container{
     background-color: #0D0D0D;
     height: 80px;
-    width: 100vw;
     display: flex;
-    margin:o;
+    margin:0px;
    /* max-width: 1024px;*/
 
     
@@ -73,7 +72,7 @@ body{
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    height: 70vh;
+    height: 80vh;
 }
 .hero-container h1{
     font-size: 64px;
@@ -144,4 +143,61 @@ body{
 }
 .about-content:hover{
     transform:scale(1em),3s ;
+}
+.love-container{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.love-text-container h2{
+    font-size: 48px;
+    color: #0D0D0D;
+    text-align: center;
+    margin:0px;
+}
+.love-text-container p{
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.love-icon-container{
+    display:flex;
+    gap:20px;
+    justify-content: center;
+    padding: 70px;
+
+}
+.love-image-2{
+   display: flex;
+   flex-direction: column;
+   justify-content: start;
+}
+.love-image-1{
+    width:293px;
+    height: 394px;
+}
+.love-image-3{
+    width: 293px;
+    height: 394px;
+}
+
+.secondary-button{
+    background-color: #FFD2A4;
+    color: #0D0D0D;
+    border: none;
+    width:200px;
+    padding:20px 10px;
+    font-size: 16px;
+    font-family: 'Roboto Condensed', sans-serif;
+    border-radius: 12px;
+    cursor: pointer;
+    align-self: center;
+    margin-bottom: 30px;
+}
+.secondary-button:hover{
+    background-color: #FFF5EB;
+    color: #FFD2A4;
+    transition: 0.3s;
 }
