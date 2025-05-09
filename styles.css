@@ -2,28 +2,32 @@ body{
     margin:0px;
     font-family: 'Roboto condenced', sans-serif; 
 }
-/*p{
-    font-size:16px;
-    color: #0D0D0D;
+p{
+    font-size:1em;
     font-family: 'Roboto Condensed', sans-serif;
+    margin:0px
 }
 h2{
-    font-size: 48px;
-    color: #0D0D0D;
+    font-size: 3em;
     font-family: 'Roboto Condensed', sans-serif;
-
+    margin:0px;
 }
 h3{
-    font-size: 24px;
-    color: #0D0D0D;
+    font-size: 2em;
+    margin:0px;
     font-family: 'Roboto Condensed', sans-serif;
 
 }
 h1{
-    font-size: 64px;
-    color: #0D0D0D;
+    font-size: 4em;
+    margin:0px;
     font-family: 'Roboto Condensed', sans-serif;
-}*/
+}
+h4{
+    font-size: 1.5em;
+    margin:0px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
 .navbar-container{
     background-color: #0D0D0D;
     height: 80px;
@@ -97,14 +101,12 @@ h1{
     height: 80vh;
 }
 .hero-container h1{
-    font-size: 64px;
     color: #FFFFFF;
     font-family: 'Roboto Condensed', sans-serif;
     margin-bottom: 20px;
 }
 .hero-container p{
     margin: 0px;
-    font-size: 16px;
     color: #FFFFFF;
     font-family: 'Roboto Condensed', sans-serif;
 }
@@ -124,14 +126,12 @@ h1{
     transition: 0.3s;
 }
 .about-text-container h2{
-    font-size: 48px;
     color: #0D0D0D;
     font-family: 'Roboto Condensed', sans-serif;
     text-align: center;
     margin:0px;
 }
 .about-text-container p{
-    font-size: 16px;
     color: #0D0D0D;
     font-family: 'Roboto Condensed', sans-serif;
     text-align: center;
@@ -140,6 +140,9 @@ h1{
 }
 .about-icon-container{
     display:flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    justify-content: center;
     padding-left: 100px;
     padding-right: 100px;
     padding-top: 50px;
@@ -153,6 +156,7 @@ h1{
     padding-right: 30px;
     background: #FFF5EB;
     border-bottom: solid 16px #FFD2A4;
+    max-width:300px; 
 
 }
 .about-content h3{
@@ -174,13 +178,12 @@ h1{
     text-align: center;
 }
 .love-text-container h2{
-    font-size: 48px;
+    font-size: 3em;
     color: #0D0D0D;
     text-align: center;
     margin:0px;
 }
 .love-text-container p{
-    font-size: 16px;
     margin-top: 20px;
     text-align: center;
 }
@@ -231,7 +234,8 @@ h1{
 .watch-container{
     background-color:#F5F2F0;
     display: inline-block;
-    margin-top: 80px;
+    margin-top: 50px;
+    padding-top: 50px;
     width:100vw;
 }
 .watch-text-container {
@@ -240,15 +244,46 @@ h1{
 .watch-image-container{
     display:flex;
     justify-content: space-around;
-    gap:30px;
+    flex-wrap: wrap;
+    gap:20px;
+    padding-top: 30px;
+    padding-bottom: 60px;
 }
 .watch-image-1{
-    background-image: url("../images\fashion-man-love-people-5875438.png");
+    /*background-image: url("../images/fashion-man-love-people-5875438.png");*/
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../images/fashion-man-love-people-5875438.png"); 
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    max-width: 302px;
+    color: white;
+    padding:20px;
+    height: 384px;    
 }
 .watch-image-2{
-    background-image: url("");
+    background-image: url('images/a-statue-holding-a-holy-book-5613134.png');
     background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 302px;
+    color: white;
+    padding:20px;
+    height: 384px;
+}
+.watch-image-3{
+    background-image: url("../images/\man-people-woman-connection-6276711.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 302px;
+    color: white;
+    padding:20px;
+    height: 384px;
+}
+.watch-image-4{
+    background-image: url("../images/\woman-in-blue-tank-top-and-man-in-red-shirt-painting-3795022.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 302px;
+    color: white;
+    padding: 20px;
+    height: 384px;
 }
 
