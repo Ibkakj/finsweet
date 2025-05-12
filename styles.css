@@ -28,6 +28,11 @@ h4{
     margin:0px;
     font-family: 'Roboto Condensed', sans-serif;
 }
+span{
+    font-size: 1em;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
 .navbar-container{
     background-color: #0D0D0D;
     height: 80px;
@@ -106,7 +111,7 @@ h4{
     margin-bottom: 20px;
 }
 .hero-container p{
-    margin: 0px;
+    margin-bottom: 30px;
     color: #FFFFFF;
     font-family: 'Roboto Condensed', sans-serif;
 }
@@ -141,7 +146,7 @@ h4{
 .about-icon-container{
     display:flex;
     flex-wrap: wrap;
-    max-width: 1280px;
+    margin-bottom: 90px;
     justify-content: center;
     padding-left: 100px;
     padding-right: 100px;
@@ -181,10 +186,10 @@ h4{
     font-size: 3em;
     color: #0D0D0D;
     text-align: center;
-    margin:0px;
+    margin-bottom:50px;
 }
 .love-text-container p{
-    margin-top: 20px;
+    margin-top: 50px;
     text-align: center;
 }
 
@@ -238,16 +243,23 @@ h4{
     padding-top: 50px;
     width:100vw;
 }
-.watch-text-container {
+.watch-text-container{
     text-align: center;
 }
+
+.watch-text{
+    position: relative;
+   margin-top: 270px;
+}
+ 
 .watch-image-container{
+    
     display:flex;
     justify-content: space-around;
     flex-wrap: wrap;
     gap:20px;
     padding-top: 30px;
-    padding-bottom: 60px;
+    padding-bottom: 90px;
 }
 .watch-image-1{
     /*background-image: url("../images/fashion-man-love-people-5875438.png");*/
@@ -286,4 +298,133 @@ h4{
     padding: 20px;
     height: 384px;
 }
+.sermons-section {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin-top: 60px;
+    
+    
+  }
+  
+  .sermons-container {
+    display: flex;
+    margin-top: 50px;
+    justify-self: center;
 
+    
+  }
+  
+  .sermons-header h2 {
+   text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+  }
+  
+  .sermons-header p {
+    text-align: center;
+    line-height: 1.2;
+    color: #222;
+    margin-bottom: 6px;
+    margin-top: 90px;
+  }
+  
+  .sermons-content {
+    width:300px;
+    gap: 20px;
+    background-color: #FFF5EB;
+    padding-top: 30px ;
+    padding-left: 70px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+  }
+  
+  .sermons-count {
+    line-height: 1.4em;
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+  }
+  
+  .sermons-info h3 {
+    line-height: 1;
+    margin-bottom: 20px;
+  }
+  
+  .sermons-info p {
+    line-height: 1.6;
+    color:  #DC9853;
+    margin-top: 10px;
+    margin-bottom:10px;
+  }
+  .sermons-info span{
+    color: #777575; 
+  }
+  
+  
+  .sermons-schedule {
+    margin-bottom: 30px;
+    color: #0D0D0D;
+}
+
+
+
+.schedule-day{
+    display: flex;
+    gap: 19px;
+    margin-top: 20px;
+  }
+  .items{
+    max-height: 20px
+  }
+  
+  
+  .schedule-location {
+    display: flex;
+    gap: 19px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .view-all {
+    display: inline-block;
+    padding: 24px 64px;
+    background: #161722;
+    color:#FFD2A4;
+    text-decoration: none;
+    border-radius: 12px;
+    transition: background-color 0.3s;
+    margin-top: 40px;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  
+  .view-all:hover {
+    background-color:#ae9279
+  }
+ .view-link{
+    justify-self: flex-end;
+    margin-top: 50px;
+   
+ }
+ .visit-container{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(109.61deg, rgba(205, 84, 35, 0.5) -53.83%, rgba(255, 208, 160, 0.3) 62.61%),
+              url("../images/facade-of-aged-grand-cathedral-with-dome-on-river-shore-5273642.png");
+    width: 100vw;
+    background-size:cover;
+    height: 400px;
+    display: flex; 
+    padding-top: 90px;
+    padding-bottom: 90px;
+
+ }
+ .visit-content{
+    background: url("../images/Quote icon.png") no-repeat right center,
+    white;
+background-size: 200px; /* Increase this to make the image bigger */
+    padding-top: 60px;
+    padding-left: 40px;
+    border-bottom: solid 16px #FFD2A4;
+    width:768px; 
+    
+ }
