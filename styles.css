@@ -44,6 +44,7 @@ h6{
 span{
     font-size: 1em;
     font-family: 'Roboto Condensed', sans-serif;
+    color:#777575;
 
 }
 .navbar-container{
@@ -98,7 +99,8 @@ span{
     background-color: #FFD2A4;
     color: #0D0D0D;
     border: none;
-    padding: 10px 20px;
+    width: 180px;
+    padding: 20px 30px;
     font-size: 16px;
     font-family: 'Roboto Condensed', sans-serif;
     border-radius: 12px;
@@ -142,6 +144,10 @@ span{
     font-family: 'Roboto Condensed', sans-serif;
     border-radius: 12px;
     cursor: pointer;
+    margin-bottom: 60px;
+}
+.hero-container span{
+    color: #F5F2F0;
 }
 .main-button:hover{
     background-color: #FFF5EB;
@@ -154,7 +160,7 @@ span{
 }
 .about-text-container p{
     text-align: center;
-    margin-top: 50px;
+    margin-top: 150px;
     margin-bottom:5px;
 }
 .about-icon-container{
@@ -169,13 +175,14 @@ span{
     font-family: 'Roboto Condensed', sans-serif;
 }
 .about-content{
-    padding-top: 60px;
+   /* padding-top: 60px;
     padding-left: 40px;
-    padding-bottom: 30px;
-    padding-right: 30px;
+    padding-bottom: 60px;
+    padding-right: 30px;*/
+    padding: 60px;
     background: #FFF5EB;
     border-bottom: solid 16px #FFD2A4;
-    max-width:300px; 
+    width:300px; 
 
 }
 .about-content h3{
@@ -198,14 +205,16 @@ span{
     margin-bottom: 90px;
 }
 .love-text-container h2{
-    font-size: 3em;
-    color: #0D0D0D;
     text-align: center;
     margin-bottom:50px;
 }
 .love-text-container p{
     margin-top: 50px;
+    margin-bottom: 20px;
     text-align: center;
+}
+.love-text-container span{
+    color: #777575;
 }
 
 .love-icon-container{
@@ -222,6 +231,7 @@ span{
    flex-direction: column;
    justify-content: start;
    max-width: auto;
+   
 }
 .love-image-1{
     max-width:293px;
