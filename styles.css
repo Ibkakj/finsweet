@@ -184,7 +184,7 @@ span{
     font-family: 'Roboto Condensed', sans-serif;
 }
 .about-content{
-    padding-top: 80px;
+    padding-top: 90px;
     padding-left: 60px;
     padding-bottom: 60px;
     padding-right: 50px;
@@ -305,11 +305,12 @@ span{
 .watch-image-container{
     
     display:flex;
-    justify-content: space-around;
     flex-wrap: wrap;
+    justify-content: center;
     gap:20px;
     padding-top: 30px;
     padding-bottom: 150px;
+  
 }
 .watch-image-1{
     display: flex;  
@@ -319,7 +320,7 @@ span{
     /*background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../images/fashion-man-love-people-5875438.png"); */
     background-repeat: no-repeat;
     background-size: cover;
-    max-width: 302px;
+    max-width: 270px;
     color: white;
     padding:20px;
     height: 384px; 
@@ -331,7 +332,7 @@ span{
     background-image: url('images/a-statue-holding-a-holy-book-5613134.png');
     background-repeat: no-repeat;
     background-size: cover;
-    max-width: 302px;
+    max-width: 270px;
     color: white;
     padding:20px;
     height: 384px;
@@ -343,7 +344,7 @@ span{
     background-image: url("../images/\man-people-woman-connection-6276711.png");
     background-repeat: no-repeat;
     background-size: cover;
-    max-width: 302px;
+    max-width: 270px;
     color: white;
     padding:20px;
     height: 384px;
@@ -355,7 +356,7 @@ span{
     background-image: url("../images/\woman-in-blue-tank-top-and-man-in-red-shirt-painting-3795022.png");
     background-repeat: no-repeat;
     background-size: cover;
-    max-width: 302px;
+    max-width: 270px;
     color: white;
     padding: 20px;
     height: 384px;
@@ -493,6 +494,7 @@ span{
     display: flex;
     gap: 19px;
     margin-top: 20px;
+    line-height: 24px;
   }
   .items{
     max-height: 20px
@@ -504,6 +506,7 @@ span{
     gap: 19px;
     margin-top: 20px;
     margin-bottom: 20px;
+    line-height: 24px;
   }
   
   .view-all {
