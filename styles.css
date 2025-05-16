@@ -32,13 +32,13 @@ h5{
     font-size: 1.125em;
     margin: 0px;
     font-family:'Roboto Condensed', sans-serif;
-    font-weight: 400px;
+  
 }
 h6{
     font-size: 1em;
     margin: 0px;
     font-family:'Roboto Condensed', sans-serif;
-    font-weight:400px;
+    font-weight:400;
 }
 
 span{
@@ -60,21 +60,19 @@ span{
     display: flex;
     align-items: center;
     border-right: solid 1px #363535;
-    background-color: #0D0D0D;
-
 }
 .logo{
-    padding-right: 30px;
-    padding-left: 40px;
+    padding-right: 40px;
+    padding-left: 100px;
+
 }
 .nav-links-container{
     display: flex;
     align-items: center;
     flex-direction: row;
-    justify-content: space-between;
-    width: 100vw;
     margin-left: 40px;
-    margin-right: 40px;
+    width:100vw;
+    justify-content: space-between;
     
 }
 .nav-links{
@@ -105,6 +103,7 @@ span{
     font-family: 'Roboto Condensed', sans-serif;
     border-radius: 12px;
     cursor: pointer;
+    margin-right:70px ;
 }
 .main-container{
     background-image: url("../images/Image\ \(1\).png");
@@ -154,6 +153,16 @@ span{
     color: #FFD2A4;
     transition: 0.3s;
 }
+.subtitle{
+  display: flex;
+  gap:20px;
+  line-height: 24px;
+}
+.line{
+  width:28px ;
+  height: 4px;
+  margin-top: 10px;
+}
 .about-text-container h2{
     text-align: center;
     margin:0px;
@@ -161,7 +170,7 @@ span{
 .about-text-container p{
     text-align: center;
     margin-top: 150px;
-    margin-bottom:5px;
+    margin-bottom:20px;
 }
 .about-icon-container{
     display:flex;
@@ -175,23 +184,23 @@ span{
     font-family: 'Roboto Condensed', sans-serif;
 }
 .about-content{
-   /* padding-top: 60px;
-    padding-left: 40px;
+    padding-top: 60px;
+    padding-left: 60px;
     padding-bottom: 60px;
-    padding-right: 30px;*/
-    padding: 60px;
+    padding-right: 50px;
     background: #FFF5EB;
     border-bottom: solid 16px #FFD2A4;
     width:300px; 
 
 }
 .about-content h3{
-    margin-bottom: 18px;
-    margin-top: 10px;
+   line-height: 44px;
+   margin-top: 30px;
 }
 .about-content p{
     font-size: 16px;
-    margin-top: 8px;
+    line-height: 24px;
+    margin-top: 10px;
 }
 .about-content:hover{
     transform:scale(1em),3s ;
@@ -202,19 +211,31 @@ span{
     gap:20px;
     font-family: 'Roboto Condensed', sans-serif;
     text-align: center;
-    margin-bottom: 90px;
+    margin-bottom: 150px;
 }
 .love-text-container h2{
     text-align: center;
-    margin-bottom:50px;
+    margin-bottom:30px;
 }
 .love-text-container p{
     margin-top: 50px;
     margin-bottom: 20px;
     text-align: center;
 }
-.love-text-container span{
+.more span{
     color: #777575;
+    line-height: 24px;
+}
+.read{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  gap:10px;
+}
+.read img{
+  width: 25px;
+  height: 10px;
+  align-self: center;
 }
 
 .love-icon-container{
@@ -223,6 +244,9 @@ span{
     gap:20px;
     justify-content: center;
     padding: 70px;
+    margin-top: 50px;
+    max-height: auto;
+
     
 
 }
@@ -231,6 +255,7 @@ span{
    flex-direction: column;
    justify-content: start;
    max-width: auto;
+   margin-top:-30px ;
    
 }
 .love-image-1{
@@ -254,7 +279,7 @@ span{
     border-radius: 12px;
     cursor: pointer;
     align-self: center;
-    margin-bottom: 30px;
+    margin-bottom: 70px;
 }
 .secondary-button:hover{
     background-color: #FFF5EB;
@@ -271,14 +296,12 @@ span{
 }
 .watch-text-container{
     text-align: center;
-    margin-top: 80px;
+    margin-top: 150px;
+    
 }
-
-.watch-text{
-    position: relative;
-   margin-top: 270px;
+.watch-text-container h2{
+     margin-top:26px ;
 }
- 
 .watch-image-container{
     
     display:flex;
@@ -286,19 +309,25 @@ span{
     flex-wrap: wrap;
     gap:20px;
     padding-top: 30px;
-    padding-bottom: 90px;
+    padding-bottom: 150px;
 }
 .watch-image-1{
-    /*background-image: url("../images/fashion-man-love-people-5875438.png");*/
-    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../images/fashion-man-love-people-5875438.png"); 
+    display: flex;  
+    flex-direction: column; 
+    justify-content: flex-end;
+    background-image: url("../images/fashion-man-love-people-5875438.png");
+    /*background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../images/fashion-man-love-people-5875438.png"); */
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 302px;
     color: white;
     padding:20px;
-    height: 384px;    
+    height: 384px; 
 }
 .watch-image-2{
+     display: flex;  
+    flex-direction: column; 
+    justify-content: flex-end;
     background-image: url('images/a-statue-holding-a-holy-book-5613134.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -308,6 +337,9 @@ span{
     height: 384px;
 }
 .watch-image-3{
+     display: flex;  
+    flex-direction: column; 
+    justify-content: flex-end;
     background-image: url("../images/\man-people-woman-connection-6276711.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -317,6 +349,9 @@ span{
     height: 384px;
 }
 .watch-image-4{
+     display: flex;  
+    flex-direction: column; 
+    justify-content: flex-end;
     background-image: url("../images/\woman-in-blue-tank-top-and-man-in-red-shirt-painting-3795022.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -324,7 +359,62 @@ span{
     color: white;
     padding: 20px;
     height: 384px;
+  }
+  .watch-image-1,
+.watch-image-2,
+.watch-image-3,
+.watch-image-4 {
+  position: relative;
+  overflow: hidden;
 }
+
+.watch-image-1::before,
+.watch-image-2::before,
+.watch-image-3::before,
+.watch-image-4::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  z-index: 1;
+}
+
+/* Show the gradient on hover */
+.watch-image-1:hover::before,
+.watch-image-2:hover::before,
+.watch-image-3:hover::before,
+.watch-image-4:hover::before {
+  opacity: 1;
+}
+
+ /* 1. Base style: hide the paragraph in all watch-image boxes */
+.watch-text p {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transform: translateY(10px);
+  transition: opacity 0.4s ease, transform 0.4s ease, max-height 0.4s ease;
+  
+}
+.watch-text {
+  position: relative;
+  z-index: 2;
+}
+
+
+/* 2. On hover: reveal the paragraph smoothly */
+.watch-image-1:hover .watch-text p,
+.watch-image-2:hover .watch-text p,
+.watch-image-3:hover .watch-text p,
+.watch-image-4:hover .watch-text p {
+  opacity: 1;
+  max-height: 200px; /* adjust based on your text size */
+  transform: translateY(0);
+}
+
+
 .sermons-section {
     font-family: 'Arial', sans-serif;
     background-color: #f8f9fa;
@@ -353,11 +443,11 @@ span{
     line-height: 1.2;
     color: #222;
     margin-bottom: 6px;
-    margin-top: 90px;
+    margin-top: 140px;
   }
   
   .sermons-content {
-    width:300px;
+    width:330px;
     gap: 20px;
     background-color: #FFF5EB;
     padding-top: 30px ;
@@ -369,16 +459,19 @@ span{
   .sermons-count {
     line-height: 1.4em;
     display: flex;
-    justify-content: flex-end;
-    text-align: center;
+    flex-direction: column;
+    justify-self: flex-end;
+    text-align: right;
+    margin-bottom: -25px;
   }
   
-  .sermons-info h3 {
+  .sermons-info h4 {
     line-height: 1;
     margin-bottom: 20px;
   }
   
   .sermons-info p {
+    font-size: 12px;
     line-height: 1.6;
     color:  #DC9853;
     margin-top: 10px;
@@ -481,7 +574,7 @@ background-size: 200px; /* Increase this to make the image bigger */
 .read-body-container{
     display:flex;
     flex-wrap: wrap;
-    margin-bottom: 90px;
+    margin-bottom: 150px;
     justify-content: center;
     padding-left: 50px;
     padding-right: 50px;
@@ -489,16 +582,23 @@ background-size: 200px; /* Increase this to make the image bigger */
     gap:20px;
     font-family: 'Roboto Condensed', sans-serif;
 }
+
 .read-content{
     padding-top: 60px;
     padding-left: 40px;
     padding-bottom: 30px;
     background: #FFF5EB;
-    border-bottom: solid 16px #FFD2A4;
     max-width:300px; 
+    
+}
+.read-content:hover{
+    border-bottom: solid 16px #FFD2A4;
+     transition: 0.3s;
+     cursor: pointer;
 
 }
 .read-content p{
+  font-size: 12px;
     color:  #DC9853;
     margin-bottom:20px; 
 }
@@ -508,18 +608,21 @@ background-size: 200px; /* Increase this to make the image bigger */
 }
 .read-text-container p{
     text-align: center;
-    margin-top: 50px;
+    margin-top: 150px;
     margin-bottom:5px;
 }
 .read-content span{
-     color: #777575; 
+     color: #777575;
+     line-height: 24px; 
 }
-.read-content h3{
-    margin-bottom: 10px;
+.read-content h4{
+  line-height: 100%;
+  margin-bottom: 30px;
 }
 .read-content h5{
-    margin-top: 10px;
-    margin-bottom: 5px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-weight: 400;
 }
 .footer {
   background-color: #0D0D14;
@@ -542,10 +645,13 @@ background-size: 200px; /* Increase this to make the image bigger */
   min-width: 200px;
 }
 .footer-left p{
+  font-size: 12px;
     line-height: 2;
+    font-weight: 400;
 }
 .footer-left h6{
-    font-weight: 200px;
+  font-size: 12px;
+    font-weight: 400;
     margin-bottom: 20px;
 }
 
@@ -575,9 +681,10 @@ background-size: 200px; /* Increase this to make the image bigger */
 }
 
 .footer-links li {
-  font-size: 14px;
+  font-size: 12px;
   color: #ccc;
   line-height: 2.5;
+  font-weight: 400;
 }
 
 .social-icons img {
@@ -593,11 +700,11 @@ background-size: 200px; /* Increase this to make the image bigger */
 }
 
 .footer-subscribe h3 {
-  font-size: 20px;
   font-weight: 700;
   margin-bottom: 20px;
   color: white;
   margin-top: 14px;
+  line-height: 44px;
 }
 
 .subscribe-box {
@@ -625,4 +732,5 @@ background-size: 200px; /* Increase this to make the image bigger */
   border: none;
   cursor: pointer;
   font-weight: 600;
+  border-radius: 8px;
 }
