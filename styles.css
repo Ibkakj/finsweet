@@ -322,8 +322,9 @@ span{
     background-size: cover;
     max-width: 270px;
     color: white;
-    padding:20px;
+    padding:30px;
     height: 384px; 
+
 }
 .watch-image-2{
      display: flex;  
@@ -334,7 +335,7 @@ span{
     background-size: cover;
     max-width: 270px;
     color: white;
-    padding:20px;
+    padding:30px;
     height: 384px;
 }
 .watch-image-3{
@@ -346,7 +347,7 @@ span{
     background-size: cover;
     max-width: 270px;
     color: white;
-    padding:20px;
+    padding:30px;
     height: 384px;
 }
 .watch-image-4{
@@ -358,7 +359,7 @@ span{
     background-size: cover;
     max-width: 270px;
     color: white;
-    padding: 20px;
+    padding: 30px;
     height: 384px;
   }
   .watch-image-1,
@@ -392,6 +393,7 @@ span{
 
  /* 1. Base style: hide the paragraph in all watch-image boxes */
 .watch-text p {
+  line-height: 24px;
   opacity: 0;
   max-height: 0;
   overflow: hidden;
@@ -402,6 +404,9 @@ span{
 .watch-text {
   position: relative;
   z-index: 2;
+}
+.watch-text h4{
+  margin-bottom: 20px;
 }
 
 
@@ -526,11 +531,12 @@ span{
  .view-link{
     justify-self: flex-end;
     margin-top: 50px;
+    font-weight: 400;
    
  }
  .exterior{
     padding-bottom: 60px;
-    max-width:1248px;
+    max-width:1251px;
     justify-self: center;
  }
  .visit-container{
@@ -576,7 +582,6 @@ background-size: 200px; /* Increase this to make the image bigger */
 .read-body-container{
     display:flex;
     flex-wrap: wrap;
-    margin-bottom: 150px;
     justify-content: center;
     padding-left: 40px;
     padding-right: 40px;
@@ -584,21 +589,29 @@ background-size: 200px; /* Increase this to make the image bigger */
     gap:20px;
     font-family: 'Roboto Condensed', sans-serif;
 }
-
-.read-content{
-    padding-top: 60px;
-    padding-left: 40px;
-    padding-bottom: 30px;
-    background: #FFF5EB;
-    max-width:300px; 
-    
+.read-container{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 150px;
 }
-.read-content:hover{
-    border-bottom: solid 16px #FFD2A4;
-     transition: 0.3s;
-     cursor: pointer;
 
+.read-content {
+  padding-top: 60px;
+  padding-left: 40px;
+  padding-bottom: 30px;
+  background: #FFF5EB;
+  max-width: 300px;
+
+  /* Reserve the border space from the beginning */
+  border-bottom: solid 16px transparent;
+  transition: border-color 0.3s ease-in-out;
+  cursor: pointer;
 }
+
+.read-content:hover {
+  border-bottom-color: #FFD2A4;
+}
+
 .read-content p{
   font-size: 12px;
     color:  #DC9853;
@@ -673,7 +686,7 @@ background-size: 200px; /* Increase this to make the image bigger */
 
 .footer-links p {
   margin-bottom: 15px;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .footer-links ul {
@@ -853,14 +866,15 @@ image{
     width:230px;
     background-color: #FFF5EB;
     padding-top: 30px ;
-    padding-left: 70px;
+    padding-left: 40px;
     padding-right: 30px;
     padding-bottom: 20px;
+    border-bottom: solid 16px transparent;
+    transition: border-color 0.3s ease-in-out;
     
   }
   .sermon-content:hover{
     border-bottom: solid 16px #FFD2A4;
-    transition: 0.3s;
     cursor: pointer;
   }
   .sermon-containers {
@@ -893,6 +907,7 @@ image{
 .blog-top-text{
   display: flex;
   justify-content: space-between;
+  margin-bottom:20px ;
 }
 .watch-about-2{
   display: flex;
@@ -905,6 +920,9 @@ image{
   padding: 60px;
   
 }
+.blog{
+  margin-bottom: 10px;
+}
 
 .blog-post-container{
   display: flex;
@@ -913,7 +931,14 @@ image{
   background-color: #FFFFFF;
   max-width: 260px;
 padding: 40px;
+border-bottom: solid 16px transparent;
+ transition: border-color 0.3s ease-in-out;
+ cursor: pointer;
 }
+.blog-post-container:hover{
+  border-bottom-color: #FFD2A4;
+}
+
 .blog-post-body{
   /*display: flex;
   gap: 20px;
@@ -927,3 +952,108 @@ padding: 40px;
   margin: 0 auto;
   text-align: left;
 }
+.contact-button{
+    background-color: #FFD2A4;
+    color: #0D0D0D;
+    border: none;
+    width: 180px;
+    padding: 20px 30px;
+    font-size: 16px;
+    font-family: 'Roboto Condensed', sans-serif;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+.contact-container{
+    background-image: url("images/6liebVeAfrY.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top:17px;
+    padding-left: 100px;
+    padding-bottom: 50px;
+  }
+  .hero-container-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color:black;
+    height: 50vh;
+    max-width: 1920px;
+    margin:auto ;   
+}
+.contact-section {
+      display: flex;
+      flex-wrap: wrap;
+      padding-top:80px;
+      padding-left: 200px;
+      margin-bottom: 150px;
+      gap: 150px;
+    }
+    .contact-form h4{
+      margin-bottom: 30px;
+    }
+
+    .contact-form {
+      max-width: 400px;
+      
+    }
+
+    .contact-form p {
+      margin-bottom: 20px;
+      font-weight: 400;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 15px;
+      margin-bottom: 15px;
+      border: none;
+      background: white;
+      border-radius: 5px;
+      font-size: 1rem;
+      outline: none;
+    }
+
+    .contact-form textarea {
+      resize: vertical;
+      height: 120px;
+    }
+
+    .contact-form-button {
+      background-color: #ffd6a0;
+      border: none;
+      text-align: center;
+      padding: 15px;
+      font-weight: 400;
+      border-radius: 8px;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    .contact-info {
+      flex: 1;
+      max-width: 250px;
+      color: #222;
+      padding-top:50px ;
+    }
+
+    .contact-info h5 {
+      margin-bottom: 5px;
+      font-weight: 400;
+      color: #666;
+  
+    }
+
+    .contact-info h4 {
+      margin: 5px 0 20px;
+      font-weight:700;
+    }
+
+    .socials-icons img{
+      margin-top: 10px;
+      width: 140px;
+    }
+
+  
