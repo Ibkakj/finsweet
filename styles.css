@@ -47,19 +47,27 @@ span{
     color:#777575;
 
 }
-.navbar-container{
-    background-color: #0D0D0D;
-    height: 80px;
-    display: flex;
-    /*margin:0px;
-    max-width: 1920px;*/
-
-    
+.navbar-container {
+  background-color: #0D0D0D;
+  height: 80px;
+  display: flex;
+  align-items: center; /* vertically center the items */
+  justify-content: space-between; /* if you have logo + menu */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 0 40px; /* optional spacing inside navbar */
 }
+
+  
 .logo-container{
     display: flex;
     align-items: center;
     border-right: solid 1px #363535;
+    height: 100%;
 }
 .logo{
     padding-right: 40px;
@@ -109,7 +117,7 @@ span{
     background-image: url("../images/Image\ \(1\).png");
     background-size: cover;
     background-repeat: no-repeat;
-    padding-top:17px;
+    padding-top:180px;
     padding-left: 100px;
     padding-bottom: 50px;
     max-width: 1920px;
@@ -753,7 +761,7 @@ background-size: 200px; /* Increase this to make the image bigger */
     background-image: url("images/vOeB66Yoriw.png");
     background-size: cover;
     background-repeat: no-repeat;
-    padding-top:17px;
+    padding-top:120px;
     padding-left: 100px;
     padding-bottom: 50px;
   }
@@ -800,6 +808,9 @@ background-size: 200px; /* Increase this to make the image bigger */
   justify-self: center;
   margin-top: 60px;
 }
+.watch-container-about{
+  margin-top:200px;
+}
 .watch-about-content{
   display: flex;
   flex-direction: column;
@@ -843,7 +854,7 @@ image{
     background-image: url("images/U_b-eSviHvs.png");
     background-size: cover;
     background-repeat: no-repeat;
-    padding-top:17px;
+    padding-top:120px;
     padding-left: 100px;
     padding-bottom: 50px;
   }
@@ -888,8 +899,8 @@ image{
 .Blogger-post{
   display: flex;
   flex-direction: column;
-  max-width:2000px;
-  margin: 0px;
+  max-width:1920px;
+  margin: auto;
   padding-bottom: 100px;
   
 }
@@ -968,7 +979,7 @@ border-bottom: solid 16px transparent;
     background-image: url("images/6liebVeAfrY.png");
     background-size: cover;
     background-repeat: no-repeat;
-    padding-top:17px;
+    padding-top:120px;
     padding-left: 100px;
     padding-bottom: 50px;
   }
@@ -977,10 +988,19 @@ border-bottom: solid 16px transparent;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    color:black;
     height: 50vh;
     max-width: 1920px;
     margin:auto ;   
+}
+.hero-container-contact p{
+  color:#DC9853;
+}
+.hero-container-contact h1{
+  color:white;
+}
+.contact-content{
+  max-width: 1920px;
+  margin:auto;
 }
 .contact-section {
       display: flex;
@@ -1054,6 +1074,74 @@ border-bottom: solid 16px transparent;
     .socials-icons img{
       margin-top: 10px;
       width: 140px;
+    }
+    .blog-posts-container{
+       display: flex;
+       flex-direction: column;
+       max-width:1920px;
+       align-items: center;
+        margin: auto;
+        padding-top: 200px;
+    
+    }
+    .blog-posts-container img{
+      width:80%;
+      margin-top: 30px;
+
+    }
+    .blog-info{
+      text-align: center;
+      line-height: 44px;
+    }
+    .gradient-text {
+     background: linear-gradient(109.61deg, #A54E2B -53.83%, #DC9853 62.61%);
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 12px;
+    }
+    .blog-small-text {
+      display: flex;
+      gap:10px;
+      justify-self: center;
+    }
+    .blog-post-rubbish-container{
+      display: flex;
+       flex-direction: column;
+       max-width:800px;
+       justify-self: center;
+       margin-bottom: 120px;
+    
+    }
+    .blog-post-rubbish{
+      margin-top: 40px;
+    }
+    .blog-post-rubbish h5{
+      margin-bottom: 20px;
+       line-height: 24px;
+      font-size: 1.125em;
+      font-weight: 400;
+      color: #161722;
+    }
+     .blog-post-rubbish h3{
+      margin-top: 40px;
+      margin-bottom: 35px;
+     }
+
+    .with-border{
+      color:#777575;
+      font-weight: 400;
+      border-left: #DC9853 solid 3px;
+      padding-left: 20px;
+      margin-bottom: 20px;
+
+    }
+    .blog-post-rubbish-text h5{
+      margin-top: 20px;
+      line-height: 24px;
+      font-size: 1.125em;
+      font-weight: 400;
+      color: #161722;
+
     }
 
   
