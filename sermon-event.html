@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SERMON</title>
-     <link rel="stylesheet" href="styles.css">
+    <title>Sermon Event</title>
+    <link rel="stylesheet" href="styles.css">
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
 </head>
-<body>
+<body class="blog-body">
      <header class="navbar-container">
          <div class="logo-container">
           <img src="../images\Logo.png" alt="Finsweet logo" class="logo">
          </div>
-      <div class="nav-links-container">
+      <div class="nav-links-container"> 
             <div class="nav-links">
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="ABOUT.html">ABOUT US</a></li>
@@ -24,58 +24,52 @@
             </div>
       </div>
     </header>
-     <main class="sermon-container">
-        <div class="hero-container-sermon">
-        <p>SERMON</p>
-        <h1>TAKE PART IN OUR SERMON</h1>
-        
-    </main>
-    <section class="sermons-section">
-      <div class="sermons-header">
-        <p>UPCOMING SERMONS</p>
-        <h2>JOIN US AND BECOME PART<br>OF SOMETHING GREAT</h2>
-      </div>
-      
-      <div class="exterior">
-      <div class="sermons-container">
-          <div class="sermons-content">
-            <div class="sermons-count">
-              <h4><strong>20</strong></h4>
-               <p>JULY</p>
+    <main class="sermon-events-container">
+        <div class="sermon-events-1">
+            <img src="images\86QxYjwq8LU.png" alt="sermon event" class="sermon-event-image">
+            <div class="blog-post-rubbish">
+                   <p class="gradient-text">RELATIONSHIP</p>
+                   <h2>HOW TO SHOW COMPASSION</h2>
+                   <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui faucibus in ornare quam viverra orci sagittis eu volutpat. Pharetra sit amet aliquam id diam maecenas ultricies.</h5>
+                   <h4 class="with-border">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui faucibus in ornare quam viverra orci sagittis eu volutpat.</h4>
+                   <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui faucibus in ornare quam viverra orci sagittis eu volutpat. Pharetra sit amet aliquam id diam maecenas ultricies.
+</h5>
             </div>
-            
-            <div class="sermons-info">
-              <p>UPCOMING EVENT</p>
-              <h4>WATCH AND LISTEN<br>TO OUR SERMONS</h4>
-              <span>Lorem ipsum dolor sit amet, consectetur<br>adipiscing elit, sed do eiusmod tempor.</span>
-            </div>
-              
-              <div class="sermons-schedule">
-                <div class="schedule-day">
-                  <img src="images\Clock icon.png" class="items">
-                  <div class="schedule-text">
-                    <p class="day">Friday 23:39 IST</p>
-                    <p class="day">Saturday 11:20 ISD</p>
-                  </div>
-                </div>
-                <div class="schedule-location">
-                  <img src="images\Icon (3).png" class="items">
-                  <div class="schedule-text">
-                    <p class="location">No 233 Main St. New York,<br> United States</p>
-                </div>
-              </div>
-              
-              <a href="#" class="view-all">REGISTER</a>
-          </div>
         </div>
-        <img src="images\a-man-and-woman-wearing-angel-costumes-8513040.png" class="picture">
-      </div>
-      <h4 class="view-link">View all Sermon &rarr;</h4>
-      </div>
-      </section>
-       <section-2 class="read-container">
+        <div class="sermon-event-register">
+            <div class="sermon-register-form">
+               <h3>REGISTER NOW</h3> 
+                <div class="sermons-event-schedule">
+                    <div class="schedule-location">
+                        <img src="images\Icon (3).png" class="items">
+                        <div class="schedule-text">
+                            <p class="location">No 233 Main St. New York,<br> United States</p>
+                        </div>
+                    </div>
+                    <div class="schedule-day">
+                        <img src="images\Clock icon.png" class="items">
+                        <div class="schedule-text">
+                            <p class="day">13 May, 2018</p>
+                        </div>
+                    </div>
+                </div>
+               <form class="register-form">
+                 <label for="name">Full Name</label>
+                 <input type="text" id="name" name="name" value="Leonard John" />
+
+                 <label for="email">Email</label>
+                 <input type="email" id="email" name="email" value="admin@abc.com" />
+
+                 <div class="button">
+                   <button class="REG-button">REGISTER NOW</button>
+                 </div>
+               </form>   
+        </div>
+
+    </main>
+    <section-2 class="read-container">
         <div class="read-text-container-sermon">
-            <h2>VIEW ALL EVENTS</h2>
+            <h2>UPCOMING SERMONS</h2>
         </div>
          <div class="sermon-containers">
          <div class="sermon-content">
@@ -192,7 +186,7 @@
           </div>
          </div>
        </section-2>
-         <footer class="footer">
+       <footer class="footer">
   <div class="footer-container">
     <div class="footer-left">
        <img src="images\Logo (1).png" class="brand">
@@ -206,7 +200,7 @@
       <div class="quicklinks">
         <p>Quicklinks</p>
         <ul>
-          <li onclick="location.href='ABOUT.html'">About Us</li>
+           <li onclick="location.href='ABOUT.html'">About Us</li>
           <li onclick="location.href='sermon.html'">Sermons</li>
           <li onclick="location.href='sermon-event.html'">Events</li>
           <li  onclick="location.href='blog.html'">Blog</li>
