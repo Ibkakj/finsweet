@@ -68,6 +68,8 @@ span{
     align-items: center;
     border-right: solid 1px #363535;
     height: 100%;
+    
+
 }
 .logo{
     padding-right: 40px;
@@ -85,6 +87,7 @@ span{
 }
 .nav-links{
     display: flex;
+    justify-self: flex-start;
     gap:40px;
     font-size: 16px;
 }
@@ -952,12 +955,14 @@ border-bottom: solid 16px transparent;
 }
 
 .blog-post-body{
-  /*display: flex;
+ /* display: flex;
   gap: 20px;
+  flex-direction: row;
+  align-items: center;
   flex-wrap: wrap;
-  justify-content: center;
+  
   margin-top: 50px;*/
-   display: grid;
+  display: grid;
   grid-template-columns: repeat(4, 1fr); /* Always 4 columns */
   gap: 1.5rem;
   max-width: 1200px;
@@ -1203,3 +1208,35 @@ border-bottom: solid 16px transparent;
 .sermon-event-image{
   width: 600px;
 }
+ .event-content {
+    width:230px;
+    background-color:#FFFFFF;
+    padding-top: 30px ;
+    padding-left: 40px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    border-bottom: solid 16px transparent;
+    transition: border-color 0.3s ease-in-out;
+    
+  }
+  .event-content:hover{
+    border-bottom: solid 16px #FFD2A4;
+    cursor: pointer;
+  }
+   .gradient-texts {
+     background: linear-gradient(109.61deg, #A54E2B -53.83%, #DC9853 62.61%);
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 12px;
+      padding-bottom: 20px;
+   }
+   .blog-post-rubbish h2{
+     margin-bottom: 20px;
+   }
+  
+
+      
+     
+
+    
+   
