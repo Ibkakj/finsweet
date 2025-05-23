@@ -57,6 +57,29 @@
         padding: 12px 30px;
         border-radius: 6px;
     }
+    .about-content {
+         padding-top: 40px;
+         padding-left: 40px;
+         padding-bottom: 30px;
+         padding-right: 20px;
+         width:200px; 
+    }
+   .secondary-button{
+    width:100px;
+    padding:10px;
+    font-size: 0.7em;
+    border-radius: 7px;
+    margin-top: 30px;
+   }
+   .watch-image-1,
+   .watch-image-2,
+   .watch-image-3,
+   .watch-image-4{
+    max-width: 200px;
+    color: white;
+    padding:20px;
+    height: 280px; 
+   }
     .about-icon-container {
         padding-left: 50px;
         padding-right: 50px;
@@ -67,6 +90,52 @@
     .footer-container{
         display:block;
     }
+    .visit {
+    padding: 12px 32px;
+    border-radius: 6px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-size: 0.8em;
+    }
+     .hero-container-about{
+    height: 40lvh;
+    max-width: 530px;   
+}
+   .serving-container{
+    padding: 50px;
+   }
+   .love-about-container {
+    padding-left: 30px;
+    padding-right: 30px;
+   }
+   .watch-container-about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 0px;
+    
+   }
+   .watch-text-container {
+    margin-top: 70px;
+   }
+    .watch-container-about img{
+        width:100%;
+    }
+   .watch-about {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 30px;
+    margin-top: 0px;
+   }
+.watch-about-1 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 30px;
+    margin-top: 0px;
+   }
+
 }
 
 
