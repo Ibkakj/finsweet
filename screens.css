@@ -135,9 +135,71 @@
     padding: 30px;
     margin-top: 0px;
    }
+.read-content {
+ padding: 30px;
+  max-width: 220px;
+
+  /* Reserve the border space from the beginning */
+  border-bottom: solid 10px transparent;
+ 
+}
+.read-content-about {
+    padding: 50px;
+    max-width: 130px;
+}
+.sermon-container {
+    padding-left: 60px;
+}
+.sermon-content {
+    width: 50%;
+}
+.sermon-events-container {
+    padding: 20px;
+}
+.sermon-events-1,
+.sermon-events-1 img {
+    max-width: 300px;
+}
+.sermon-register-form {
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+}
+.REG-button{
+    max-width: 170px;
+    padding: 10px 20px;
+    font-size: 0.8em;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+.watch-about-2 {
+    display: flex;
+    flex-direction: column;
+    padding: 35px;
+}
+.contact-button {
+    padding: 10px 20px;
+    font-size: 0.8em;
+    border-radius: 6px;
+    margin-top: 20px;
+    width: 50%;
+}
+.blog-post-body{
+  display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 
 }
-
+.blog-post-container {
+    padding: 30px;
+    max-width: 200px;
+}
+.blog-post-rubbish-container,
+.blog-post-rubbish img {
+    max-width: 300px;
+}
+}
 
 @media screen and (max-width:1000px){
     .navbar-container{
