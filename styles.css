@@ -48,74 +48,82 @@ span{
 
 }
 .navbar-container {
-  background-color: #0D0D0D;
-  height: 80px;
-  display: flex;
-  align-items: center; /* vertically center the items */
-  justify-content: space-between; /* if you have logo + menu */
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 1000;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  padding: 0 40px; /* optional spacing inside navbar */
+  background-color: #0D0D0D;
 }
 
-  
-.logo-container{
-    display: flex;
-    align-items: center;
-    border-right: solid 1px #363535;
-    height: 100%;
-    
+.navbar-inner {
+ 
+  height: 80px;
+  width: 100vw;
+  max-width: 1920px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  padding: 0 40px;
+  box-sizing: border-box;
+ 
+}
 
+/* Logo styles */
+.logo-container {
+  display: flex;
+  align-items: center;
+  border-right: solid 1px #363535;
+  height: 100%;
 }
-.logo{
-    padding-right: 40px;
-    padding-left: 100px;
 
+.logo {
+  padding: 0 40px;
 }
-.nav-links-container{
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    margin-left: 40px;
-    width:100vw;
-    justify-content: space-between;
-    
+
+/* Nav links and button */
+.nav-links-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 40px;
+  margin-left: 40px;
 }
-.nav-links{
-    display: flex;
-    justify-self: flex-start;
-    gap:40px;
-    font-size: 16px;
+
+.nav-links {
+  display: flex;
+  gap: 40px;
+  font-size: 16px;
+  font-family: 'Roboto Condensed', sans-serif;
 }
-.nav-links a{
-    text-decoration:none;
-    color: #FFFFFF;
-    font-family: 'Roboto Condensed', sans-serif;
+
+.nav-links li {
+  list-style: none;
 }
-.nav-links li{
-    list-style: none;
+
+.nav-links a {
+  text-decoration: none;
+  color: #FFFFFF;
 }
-.nav-links a:hover{
-    color: #FFD2A4;
-    transition: 0.3s;
+
+.nav-links a:hover {
+  color: #FFD2A4;
+  transition: 0.3s;
 }
-    
-.navbar-button{
-    background-color: #FFD2A4;
-    color: #0D0D0D;
-    border: none;
-    width: 180px;
-    padding: 20px 30px;
-    font-size: 16px;
-    font-family: 'Roboto Condensed', sans-serif;
-    border-radius: 12px;
-    cursor: pointer;
-    margin-right:70px ;
+
+.navbar-button {
+  background-color: #FFD2A4;
+  color: #0D0D0D;
+  border: none;
+  padding: 15px 30px;
+  font-size: 16px;
+  border-radius: 12px;
+  cursor: pointer;
 }
+
 .main-container{
     background-image: url("../images/Image\ \(1\).png");
     background-size: cover;
@@ -123,8 +131,7 @@ span{
     padding-top:180px;
     padding-left: 100px;
     padding-bottom: 50px;
-    max-width: 1920px;
-    margin:auto ;
+   
 
     
 }
@@ -134,6 +141,8 @@ span{
     align-items: flex-start;
     justify-content: center;
     height: 80vh;
+     max-width: 1920px;
+    margin:auto ;
 }
 .hero-container h1{
     color: #FFFFFF;
@@ -256,10 +265,13 @@ span{
 .love-icon-container img{
    width: 80%;
   margin-top: -30px;
+  max-width: 1024px;
 }
 .love-icon-containers img{
     width: 80%;
     padding: 30px;
+    max-width: 1920px;
+    margin: auto;
 }
 
 .secondary-button{
@@ -285,9 +297,9 @@ span{
     background-color:#F5F2F0;
     display: flex;
     flex-direction: column;
-    max-width:1920px;
+    
     justify-items: center;
-    margin: auto;
+   
 }
 .watch-text-container{
     text-align: center;
@@ -539,8 +551,7 @@ span{
     justify-content: center;
     background: linear-gradient(109.61deg, rgba(205, 84, 35, 0.5) -53.83%, rgba(255, 208, 160, 0.3) 62.61%),
               url("../images/facade-of-aged-grand-cathedral-with-dome-on-river-shore-5273642.png");
-    max-width:1920px ;
-    margin: auto;
+  
     background-size:cover;
     display: flex; 
     padding-top: 90px;
@@ -638,8 +649,7 @@ background-size: 200px; /* Increase this to make the image bigger */
   color: white;
   padding: 60px;
   font-family: 'Roboto Condensed', sans-serif;
-  max-width: 1920px;
-  margin: auto;
+ 
 }
 
 .footer-container {
@@ -647,6 +657,8 @@ background-size: 200px; /* Increase this to make the image bigger */
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 40px;
+   max-width: 1920px;
+  margin: auto;
 }
 
 .footer-left {
